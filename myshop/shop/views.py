@@ -40,3 +40,5 @@ def product_detail(request, id, slug):
 
 def about(request):
     return render(request, 'shop/product/about.html')
+def authors(request):
+    return render(request, 'shop/product/authors.html')
